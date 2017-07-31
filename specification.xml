@@ -20,34 +20,7 @@
   -->
 <freecol-specification id="expandExperience" version="0.1">
   <unit-change-types>
-    <unit-change-type id="model.unitChange.experience">
-      <unit-type-change id="model.unitChange.experience.expertFarmer"
-                        from="model.unit.freeColonist"
-                        to="model.unit.expertFarmer" probability="4"/>
-      <unit-type-change id="model.unitChange.experience.expertFisherman"
-                        from="model.unit.freeColonist"
-                        to="model.unit.expertFisherman" probability="4"/>
-      <unit-type-change id="model.unitChange.experience.expertFurTrapper"
-                        from="model.unit.freeColonist"
-                        to="model.unit.expertFurTrapper" probability="4"/>
-      <unit-type-change id="model.unitChange.experience.expertSilverMiner"
-                        from="model.unit.freeColonist"
-                        to="model.unit.expertSilverMiner" probability="4"/>
-      <unit-type-change id="model.unitChange.experience.expertLumberJack"
-                        from="model.unit.freeColonist"
-                        to="model.unit.expertLumberJack" probability="4"/>
-      <unit-type-change id="model.unitChange.experience.expertOreMiner"
-                        from="model.unit.freeColonist"
-                        to="model.unit.expertOreMiner" probability="4"/>
-      <unit-type-change id="model.unitChange.experience.masterSugarPlanter"
-                        from="model.unit.freeColonist"
-                        to="model.unit.masterSugarPlanter" probability="4"/>
-      <unit-type-change id="model.unitChange.experience.masterCottonPlanter"
-                        from="model.unit.freeColonist"
-                        to="model.unit.masterCottonPlanter" probability="4"/>
-      <unit-type-change id="model.unitChange.experience.masterTobaccoPlanter"
-                        from="model.unit.freeColonist"
-                        to="model.unit.masterTobaccoPlanter" probability="4"/>
+    <unit-change-type id="model.unitChange.experience" preserve="true">
       <unit-type-change id="model.unitChange.experience.masterCarpenter"
                         from="model.unit.freeColonist"
                         to="model.unit.masterCarpenter" probability="4"/>
